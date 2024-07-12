@@ -52,3 +52,4 @@ Here are a few suggestions on what to do next if you're new to Netlify visual ed
 ## Support
 
 If you get stuck along the way, get help in our [support forums](https://answers.netlify.com/).
+echo "export default function middleware(req) { return new Response('<html><body style=\"background-color: white;\"><h1 style=\"color: black; text-align: center; margin-top: 20%;\">Work in Progress</h1></body></html>', { headers: { 'Content-Type': 'text/html' } }); }" > pages/_middleware.js
